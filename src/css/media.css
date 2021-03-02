@@ -1,0 +1,37 @@
+@media only screen and (max-width: 1200px) {
+  .container,
+  .container_menu {
+    width: 1140px;
+    margin: 0 auto;
+  }
+  .red {
+    border: 5px solid blue;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .container,
+  .container_menu {
+    width: 960px;
+    margin: 0 auto;
+  }
+  .red {
+    border: 5px solid purple;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .container,
+  .container_menu {
+    width: 720px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .container,
+  .container_menu {
+    width: 540px;
+    margin: 0 auto;
+  }
+}
