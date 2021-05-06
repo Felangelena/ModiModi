@@ -1,0 +1,226 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f3f3f3;
+  width: 100%;
+  /* font-family: "Playfair Display";
+  font-family: "Lato"; */
+}
+.container {
+  width: 1340px;
+  margin: 0 auto;
+}
+.container_menu {
+  width: 1340px;
+  margin: 0 auto;
+}
+.red {
+  border: 5px solid red;
+}
+.btn:hover,
+nav .menu-btn .buy:hover {
+  background: #a49e99;
+  color: white;
+  cursor: pointer;
+}
+/* menu */
+nav,
+footer {
+  background-color: white;
+}
+.logo:hover {
+  cursor: pointer;
+}
+nav .menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .main-menu {
+  display: block;
+  font-family: "Lato", serif;
+  margin: 0 60px 0 10px;
+}
+nav .main-menu li {
+  display: inline-block;
+}
+nav .main-menu li a {
+  display: block;
+  color: #4d372b;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+}
+nav .main-menu li a:hover {
+  background-color: #ddd;
+}
+nav .menu-btn li {
+  display: inline-block;
+}
+nav .menu-btn li a {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+}
+nav .menu-btn .buy {
+  font-family: "Lato";
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px;
+  background: url(../img/button_customize.jpg) no-repeat center center / cover;
+}
+nav .menu-btn .icon {
+  height: 57px;
+  width: 50px;
+}
+.search {
+  background: url(../icons/search.svg) no-repeat center center / cover;
+}
+nav .menu-btn .cart {
+  background: url(../icons/cart.svg) no-repeat center center / cover;
+}
+/* menu */
+
+/* Dropdown menu */
+.dropmenu {
+  position: relative;
+  display: inline-block;
+}
+.dropmenu-box {
+  font-family: "Lato", sans-serif;
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  background-color: white;
+  padding-bottom: 30px;
+}
+.dropmenu:hover .dropmenu-box {
+  display: block;
+  z-index: 1;
+}
+.subtitle {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.storage {
+  color: #a69e97;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+.table {
+  color: #dbd8d5;
+  font-size: 14px;
+  font-weight: bold;
+  padding-right: 80px;
+}
+.dropmenu-col {
+  display: flex;
+}
+.dropmenu-column {
+  flex-basis: 12.5%;
+}
+h5.dropmenu-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #cbb092;
+  padding-bottom: 20px;
+}
+h5.dropmenu-second-title {
+  padding-top: 18px;
+}
+.dropmenu ul {
+  list-style-type: none;
+}
+.dropmenu li {
+  line-height: 2rem;
+  font-weight: bold;
+}
+.dropmenu li a {
+  display: block;
+  padding: 0;
+  margin-right: 5px;
+  color: #503f32;
+  text-decoration: none;
+}
+.dropmenu-col li a:hover {
+  cursor: pointer;
+  background-color: #ddd;
+  transition: 0.5s;
+  padding-left: 10px;
+}
+.dropmenu-column {
+  height: 270px;
+  border-right: 1px solid #997575;
+  padding-left: 15px;
+}
+.dropmenu-column-half-box {
+  display: flex;
+}
+.dropmenu-column-half {
+  flex-basis: 50%;
+}
+
+.dropmenu-column:nth-child(2),
+.dropmenu-column:nth-child(4) {
+  padding-top: 45px;
+}
+.dropmenu-column:last-child,
+.dropmenu-column:nth-child(1),
+.dropmenu-column:nth-child(3) {
+  border-right: 0px;
+}
+.dropmenu-column:last-child {
+  opacity: 0.5;
+}
+/* Dropdown menu */
+
+/* Footer */
+footer {
+  padding: 25px 0 30px 0;
+}
+.footer-col {
+  display: flex;
+  font-family: "Lato";
+}
+.footer-column {
+  flex-basis: 16.66%;
+}
+h5.header-footer {
+  font-size: 24px;
+  font-weight: bold;
+  color: #cbb092;
+  padding-bottom: 20px;
+}
+footer ul {
+  list-style-type: none;
+}
+footer li {
+  line-height: 2rem;
+  font-weight: bold;
+  padding: 0 15px 0 0;
+}
+footer li a {
+  display: block;
+  color: #503f32;
+  text-decoration: none;
+}
+footer li a:hover {
+  cursor: pointer;
+  background-color: #ddd;
+  transition: 0.5s;
+  padding-left: 10px;
+}
+.footer-column {
+  min-height: 250px;
+  border-right: 1px solid #997575;
+  padding-left: 15px;
+}
+.footer-column:last-child {
+  border-right: 0px;
+}
+/* Footer */

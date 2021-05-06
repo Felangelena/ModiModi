@@ -1,0 +1,39 @@
+@import url("main.css");
+.container {
+  width: 1080px;
+  margin: 0 auto;
+}
+h1 {
+  font-family: "Playfair Display";
+  font-size: 72px;
+  font-weight: bold;
+  color: #503f32;
+  text-align: center;
+  padding: 40px 0;
+}
+h2 {
+  text-align: center;
+  font-family: "Playfair Display";
+  font-weight: 1200;
+  font-size: 36px;
+  color: #503f32;
+  padding: 25px;
+}
+p {
+  width: 75%;
+  text-align: center;
+  font-family: "Lato";
+  font-size: 16px;
+  color: #503f32;
+  padding-bottom: 25px;
+  margin: 0 auto;
+  line-height: 1.2;
+}
+section {
+  padding-bottom: 25px;
+}
+.post {
+  width: 100%;
+  height: 610px;
+  background: url(../img/bg1.jpg) no-repeat center center / cover;
+}

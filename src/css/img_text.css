@@ -1,0 +1,55 @@
+@import url("main.css");
+.container {
+  width: 1080px;
+  margin: 0 auto;
+}
+h1 {
+  font-family: "Playfair Display";
+  font-size: 72px;
+  font-weight: bold;
+  color: #503f32;
+  text-align: center;
+  padding: 40px 0;
+}
+h2 {
+  text-align: center;
+  font-family: "Playfair Display";
+  font-weight: 900;
+  font-size: 36px;
+  color: #503f32;
+  padding-bottom: 35px;
+  line-height: 1.4;
+}
+p {
+  text-align: justify;
+  font-family: "Lato";
+  font-size: 16px;
+  color: #503f32;
+  padding-bottom: 25px;
+  margin: 0 auto;
+  line-height: 2;
+}
+header {
+  padding-bottom: 80px;
+}
+section {
+  padding-bottom: 25px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.about_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left,
+.right {
+  flex-basis: 50%;
+  margin: 0 35px;
+  margin-bottom: 80px;
+}
+
+section img {
+  max-width: 100%;
+}
